@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympic Games Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Example styling for the new sections */
+        .indicator-container {
+            margin-top: 20px;
+        }
+        .indicator-container p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olympic Games Dashboard</h1>
+    
+    <!-- Nation Selection -->
+    <div>
+        <label for="nation-select">Select a Nation:</label>
+        <select id="nation-select" onchange="fetchNationMedals()">
+            <option value="">Select a Nation</option>
+            <!-- Options will be added here by JavaScript -->
+        </select>
+    </div>
+
+    <!-- Nation Medals -->
+    <div id="nation-medals">
+        <!-- Nation medal results will be displayed here -->
+    </div>
+
+    <!-- World Bank Data -->
+    <div class="indicator-container">
+        <h2>World Bank Indicators</h2>
+        <div id="country-list">
+            <!-- World Bank data will be displayed here -->
+        </div>
+    </div>
+
+    <!-- Favorites -->
+    <div>
+        <h2>Favorites</h2>
+        <div id="favorites-list">
+            <!-- Favorites will be displayed here -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+

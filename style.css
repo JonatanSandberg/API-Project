@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+select, button {
+    margin: 10px;
+    padding: 5px;
+}
+
+.result, .favorite {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.result img, .favorite img {
+    max-width: 100px;
+    vertical-align: middle;
+}
+
+.result span, .favorite span {
+    margin-left: 10px;
+}
+
+#favorites-list {
+    margin-top: 20px;
+}
